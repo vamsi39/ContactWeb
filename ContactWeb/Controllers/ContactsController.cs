@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ContactWeb.Models;
+using Microsoft.AspNet.Identity;
 
 // the code runs anytime we make request to the application
 // The following are GET requests
@@ -21,16 +22,35 @@ namespace ContactWeb.Controllers
         // GET: Contacts
         public ActionResult Index()
         {
-            return View(db.Contacts.ToList()); // Essentially will intialise the local connection the database
-        }                                      // Retrieves contacts from the list and throws them into the view in oder to be used and rendered on the page
+            try   //Try-Catch just in case if someone hits the page without signing in 
+            {
+                var userId = new Guid(User.Identity.GetUserId());
+                var userName = User.Identity.GetUserName();
+
+
+                ViewBag.UserId = userId;
+                ViewBag.UserName = userName;
+
+
+                ViewData["UserId"] = userId;
+                ViewData["UserName"] = userName;
+
+            }
+            catch (System.Exception ex)
+            {
+
+            }
+          
+            return View(db.Contacts.ToList()); 
+        }                                      
 
         // GET: Contacts/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest); // Essentially will intialise the local connection the database
+            }                                                               // Retrieves contacts from the list and throws them into the view in oder to be used and rendered on the page
             Contact contact = db.Contacts.Find(id);
             if (contact == null)
             {
