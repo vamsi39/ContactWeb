@@ -7,7 +7,7 @@ namespace ContactWeb.Models
 {
     public class Contact         // contact object with each property 
     {
-        public int Id { get; set; }
+        public int Id { get; set; }   
         public Guid UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

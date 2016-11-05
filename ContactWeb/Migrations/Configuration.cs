@@ -9,7 +9,7 @@ namespace ContactWeb.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "ContactWeb.Models.ContactWebContext";
         }
 

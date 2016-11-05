@@ -89,17 +89,26 @@
             @Html.DisplayFor(modelItem => item.PostCode)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
         </td>
     </tr>
 }
 
 </table>
 
-<h3>Welcome</h3>
-@ViewBag.UserName - @ViewBag.UserId
+@*
+    <h3>Welcome</h3>
+    @ViewBag.UserName - @ViewBag.UserId
 
-<h3>Welcome</h3>
-@ViewData["UserName"] - @ViewData["UserId"]
+    <h3>Welcome</h3>
+    @ViewData["UserName"] - @ViewData["UserId"]
+
+
+
+*@ 
+
+
+
+
