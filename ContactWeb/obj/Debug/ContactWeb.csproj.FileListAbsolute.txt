@@ -78,7 +78,7 @@ C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\bin\Microso
 C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csprojResolveAssemblyReference.cache
-C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.dll
-C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.pdb
 C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.Migrations.InitialCreate.resources
 C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.csproj.GenerateResource.Cache
+C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.dll
+C:\Users\vpabb_000\Documents\MSDev ASP.Net MVC\ContactWeb\ContactWeb\obj\Debug\ContactWeb.pdb

@@ -6,8 +6,15 @@
 
 .defaultText {
     font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    font-size:12pt;
+    font-size: 12pt;
+    
+}
 
 
+.padRight8px { 
+    padding-right: 8px;
 
 }
+
+
+
